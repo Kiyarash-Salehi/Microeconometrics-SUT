@@ -20,7 +20,7 @@ The analysis is based on data from approximately 49,000 households, focusing on 
 ## How to Use This Repository
 
 1. **Clone the Repository:** 
-`git clone https://github.com/your-username/womens-labor-participation-analysis.git`
+`   git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git`
 2. **Data Preprocessing:** Execute the preprocessing scripts (do files) located in the `Scripts` directory to clean and prepare the datasets and the regression.
 
 ## Contact
