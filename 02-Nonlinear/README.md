@@ -31,7 +31,7 @@ To set up this project on your local machine:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/economic-determinants-billionaires.git
+     git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git
    ```
 2. Navigate to the project directory:
    ```
