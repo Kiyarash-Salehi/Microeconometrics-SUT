@@ -22,8 +22,7 @@ This repository contains a collection of course projects in Sharif University of
 ## **Clone the Repository:** 
 
    ```bash
-   git clone https://github.com/your-username/economic-social-research-projects.git
-   cd economic-social-research-projects
+   git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git
    ```
 
 
