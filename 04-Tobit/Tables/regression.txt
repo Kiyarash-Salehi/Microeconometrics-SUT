@@ -1,0 +1,33 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Model 1	Model 1	Model 2	Model 2	Model 3	Model 3
+							
+loginc	Logarithm of Income	1.811***		1.837***		2.086***	
+		(0.140)		(0.151)		(0.161)	
+logins	Logarithm of Total Insurance Expenditures	0.150***		0.148***		0.106***	
+		(0.0178)		(0.0178)		(0.0176)	
+1.cigar	Cigar = 1, have some expenditures on Cigarettes	1.484***		1.466***		1.089***	
+		(0.242)		(0.242)		(0.239)	
+1.A65	at least a Household member above 65 = 1, At least one is above 65	2.078***		2.153***		2.140***	
+		(0.231)		(0.240)		(0.228)	
+3.edulevel	Household Head Education Level = 3, Third School	-0.514		-0.509		-1.002	
+		(1.197)		(1.196)		(1.250)	
+4.edulevel	Household Head Education Level = 4, Diploma	-0.366		-0.363		-0.574**	
+		(0.253)		(0.253)		(0.246)	
+5.edulevel	Household Head Education Level = 5, Bachelor	1.145*		1.144*		0.279	
+		(0.643)		(0.643)		(0.625)	
+6.edulevel	Household Head Education Level = 6, Master and PHD	-1.155***		-1.098***		-1.041***	
+		(0.304)		(0.307)		(0.297)	
+hhsize	Household Size			0.0607		0.0887	
+				(0.0700)		(0.0718)	
+1.urban	urban = 1, Urban			-0.287*		-0.296*	
+				(0.164)		(0.159)	
+var(e.loghexp)			107.8***		107.8***		98.68***
+			(1.734)		(1.727)		(1.523)
+Constant	Constant	-32.67***		-33.22***		-35.19***	
+		(2.784)		(2.940)		(3.161)	
+							
+Observations		36,998	36,998	36,998	36,998	36,998	36,998
+Province FE		NO	NO	NO	NO	YES	YES
+Robust standard errors in parentheses							
+*** p<0.01, ** p<0.05, * p<0.1							
+Notes: Healthcare Expenditures in 1401 is the dependent variable in all Models.							

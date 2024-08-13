@@ -1,0 +1,25 @@
+----------------------------------------------------------------
+               |                                   Logit
+               | Proportion   Std. err.     [95% conf. interval]
+---------------+------------------------------------------------
+activitystatus |
+     Employed  |   .6190733   .0025241      .6141139    .6240081
+   Unemployed  |   .0165068   .0006623      .0152577    .0178563
+     Inactive  |   .3644198   .0025015      .3595311    .3693367
+----------------------------------------------------------------
+(file proportion2.doc not found)
+  
+Click to Open File:  proportion2.doc
+
+. 
+. /* End of do-file */
+. 
+end of do-file
+
+. 
+. /* End of do-file */
+. 
+. 
+end of do-file
+
+. exit, clear

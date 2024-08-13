@@ -1,0 +1,72 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\b\qc\line proportion estimation }{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1200
+\fs20\pard\intbl\qr {Logit}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1200
+\fs20\pard\intbl\ql { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2500
+\fs20\pard\intbl\qr { Proportion}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx3800
+\fs20\pard\intbl\qr { Std.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5100
+\fs20\pard\intbl\qr { err.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6400
+\fs20\pard\intbl\qr { [95%}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7700
+\fs20\pard\intbl\qr { conf.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx9000
+\fs20\pard\intbl\qr { interval]}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \cellx1200
+\fs20\pard\intbl\qr {activitystatus}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1200
+\fs20\pard\intbl\qr {Employed}\cell
+\cellx2500
+\fs20\pard\intbl\qr {    0.619}\cell
+\cellx3800
+\fs20\pard\intbl\qr {    0.003}\cell
+\cellx5100
+\fs20\pard\intbl\qr {    0.614}\cell
+\cellx6400
+\fs20\pard\intbl\qr {    0.624}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1200
+\fs20\pard\intbl\qr {Unemployed}\cell
+\cellx2500
+\fs20\pard\intbl\qr {    0.017}\cell
+\cellx3800
+\fs20\pard\intbl\qr {    0.001}\cell
+\cellx5100
+\fs20\pard\intbl\qr {    0.015}\cell
+\cellx6400
+\fs20\pard\intbl\qr {    0.018}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1200
+\fs20\pard\intbl\qr {Inactive}\cell
+\cellx2500
+\fs20\pard\intbl\qr {    0.364}\cell
+\cellx3800
+\fs20\pard\intbl\qr {    0.003}\cell
+\cellx5100
+\fs20\pard\intbl\qr {    0.360}\cell
+\cellx6400
+\fs20\pard\intbl\qr {    0.369}\cell
+\row}
+
+
+\writepositionforappend
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx9000\cell
+\row}}}

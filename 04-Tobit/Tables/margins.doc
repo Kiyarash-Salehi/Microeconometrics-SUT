@@ -1,0 +1,776 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\b\qc\line  }{\par}
+\fs20 {Conditional marginal effects                            Number of obs = 36,998}\line
+\fs20 {Model VCE: Robust}\line
+\fs20 {Expression: Linear prediction, predict()}\line
+\fs20 {dy/dx wrt:  loginc logins 1.cigar 1.A65 3.edulevel 4.edulevel 5.edulevel 6.edulevel hhsize 1.urban 1.Province 2.Province 3.Province 4.Province 5.Province 6.Province 7.Province 8.Province 9.Province}\line
+\fs20 {            10.Province 11.Province 12.Province 13.Province 14.Province 15.Province 16.Province 17.Province 18.Province 19.Province 20.Province 21.Province 22.Province 23.Province 24.Province}\line
+\fs20 {            25.Province 26.Province 27.Province 28.Province 29.Province 30.Province}\line
+\fs20 {At: loginc      = 20.86665 (mean)}\line
+\fs20 {    logins      = 13.99845 (mean)}\line
+\fs20 {    0.cigar     = .8423126 (mean)}\line
+\fs20 {    1.cigar     = .1576874 (mean)}\line
+\fs20 {    0.A65       = .7408793 (mean)}\line
+\fs20 {    1.A65       = .2591207 (mean)}\line
+\fs20 {    2.edulevel  = .1797369 (mean)}\line
+\fs20 {    3.edulevel  = .0044164 (mean)}\line
+\fs20 {    4.edulevel  = .4438356 (mean)}\line
+\fs20 {    5.edulevel  = .0160013 (mean)}\line
+\fs20 {    6.edulevel  = .3560098 (mean)}\line
+\fs20 {    hhsize      = 3.268712 (mean)}\line
+\fs20 {    0.urban     = .2348079 (mean)}\line
+\fs20 {    1.urban     = .7651921 (mean)}\line
+\fs20 {    0.Province  = .0184365 (mean)}\line
+\fs20 {    1.Province  = .0346253 (mean)}\line
+\fs20 {    2.Province  = .0444553 (mean)}\line
+\fs20 {    3.Province  = .0497081 (mean)}\line
+\fs20 {    4.Province  = .0397827 (mean)}\line
+\fs20 {    5.Province  = .0236096 (mean)}\line
+\fs20 {    6.Province  = .0550872 (mean)}\line
+\fs20 {    7.Province  = .0595071 (mean)}\line
+\fs20 {    8.Province  = .0407525 (mean)}\line
+\fs20 {    9.Province  = .0810232 (mean)}\line
+\fs20 {    10.Province = .0660297 (mean)}\line
+\fs20 {    11.Province = .0315725 (mean)}\line
+\fs20 {    12.Province = .0197017 (mean)}\line
+\fs20 {    13.Province = .0216576 (mean)}\line
+\fs20 {    14.Province = .0112558 (mean)}\line
+\fs20 {    15.Province =  .020897 (mean)}\line
+\fs20 {    16.Province = .0068078 (mean)}\line
+\fs20 {    17.Province = .0076812 (mean)}\line
+\fs20 {    18.Province = .0144319 (mean)}\line
+\fs20 {    19.Province = .0132257 (mean)}\line
+\fs20 {    20.Province = .0092959 (mean)}\line
+\fs20 {    21.Province = .0143847 (mean)}\line
+\fs20 {    22.Province = .0224304 (mean)}\line
+\fs20 {    23.Province = .1677199 (mean)}\line
+\fs20 {    24.Province = .0153869 (mean)}\line
+\fs20 {    25.Province = .0148063 (mean)}\line
+\fs20 {    26.Province = .0165364 (mean)}\line
+\fs20 {    27.Province = .0233004 (mean)}\line
+\fs20 {    28.Province = .0104023 (mean)}\line
+\fs20 {    29.Province = .0095287 (mean)}\line
+\fs20 {    30.Province = .0359597 (mean)}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql { }\cell
+\cellx6400
+\fs20\pard\intbl\ql { Delta-method}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1500
+\fs20\pard\intbl\ql { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2700
+\fs20\pard\intbl\ql { dy/dx}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx3900
+\fs20\pard\intbl\ql { std.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5100
+\fs20\pard\intbl\ql { err.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6300
+\fs20\pard\intbl\ql { t}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7500
+\fs20\pard\intbl\ql { P>t}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx8700
+\fs20\pard\intbl\ql { [95%}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx9900
+\fs20\pard\intbl\ql { conf.}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx11100
+\fs20\pard\intbl\ql { interval]}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {loginc }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    2.086}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.161}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   12.950}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    1.770}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.401}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {logins }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.106}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.018}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    6.040}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.072}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.141}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {cigar }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {have some expenditures on Cigarettes  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    1.089}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.239}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    4.570}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.622}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.557}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {A65 }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {At least one is above 65  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    2.140}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.228}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    9.380}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    1.693}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.587}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {edulevel }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Third School  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.002}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    1.250}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -0.800}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.423}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -3.452}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.448}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Diploma  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -0.574}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.246}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -2.330}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.020}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -1.056}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.091}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Bachelor  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.279}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.625}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    0.450}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.655}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.945}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.504}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Master and PHD  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.041}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.297}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -3.500}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -1.623}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.458}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {hhsize }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.089}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.072}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    1.240}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.217}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.052}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.229}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {urban }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Urban  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -0.296}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.159}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -1.860}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.063}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.608}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.016}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3000
+\fs20\pard\intbl\ql {Province }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Guilan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -4.633}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.544}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -8.510}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -5.700}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -3.565}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Mazandaran  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -2.381}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.554}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -4.300}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -3.467}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -1.296}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {AzarbaijanSharghi  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.188}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.510}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -2.330}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.020}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -2.186}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.189}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {AzarbaijanGharbi  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -5.464}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.622}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -8.780}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -6.684}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -4.245}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Kermanshah  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.105}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.628}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -1.760}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.078}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -2.335}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.125}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Khouzestan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -5.262}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.583}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -9.030}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -6.404}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -4.120}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Fars  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.253}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.470}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    0.540}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.590}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.668}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.174}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Kerman  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.607}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.460}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    1.320}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.187}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.295}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.509}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Khorasan Razavi  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.031}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.499}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -2.070}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.039}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -2.008}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.054}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Esfehan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    1.206}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.482}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    2.500}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.012}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.262}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.150}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Sistan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -5.975}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.591}\cell
+\cellx5100
+\fs20\pard\intbl\ql {  -10.100}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -7.134}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -4.816}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Kurdistan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.405}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.563}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -2.500}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.013}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -2.509}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.302}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Hamedan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -0.806}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.491}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -1.640}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.101}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -1.769}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.157}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Chaharmahal  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -0.320}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.485}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -0.660}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.510}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -1.270}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.631}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Lorestan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -4.810}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.600}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -8.020}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -5.986}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -3.635}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Ilam  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.753}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.509}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    1.480}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.139}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.244}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.751}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Koguiloye  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    1.552}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.454}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    3.420}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.001}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.663}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.441}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Boushehr  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -0.863}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.540}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -1.600}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.110}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -1.922}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    0.196}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Zanjan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -2.464}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.536}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -4.600}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -3.513}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -1.414}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Semnan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {  -10.055}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.702}\cell
+\cellx5100
+\fs20\pard\intbl\ql {  -14.320}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {  -11.431}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -8.679}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Yazd  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -3.608}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.608}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -5.930}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -4.800}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -2.415}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Hormozgan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -9.446}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.550}\cell
+\cellx5100
+\fs20\pard\intbl\ql {  -17.170}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {  -10.524}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -8.367}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Tehran  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -6.113}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.525}\cell
+\cellx5100
+\fs20\pard\intbl\ql {  -11.650}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -7.141}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -5.084}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Ardebil  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -1.979}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.597}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -3.320}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.001}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -3.149}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -0.809}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Qom  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    3.494}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.463}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    7.540}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    2.586}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    4.401}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Qazvin  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -2.826}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.570}\cell
+\cellx5100
+\fs20\pard\intbl\ql {   -4.960}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -3.943}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -1.709}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Golestan  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    1.415}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.428}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    3.300}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.001}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.576}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.255}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Khorasan Shomali  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    0.311}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.483}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    0.640}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.520}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -0.636}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    1.258}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Khorasan Jonoobi  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {   -5.515}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.540}\cell
+\cellx5100
+\fs20\pard\intbl\ql {  -10.210}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.000}\cell
+\cellx7500
+\fs20\pard\intbl\ql {   -6.574}\cell
+\cellx8700
+\fs20\pard\intbl\ql {   -4.457}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Alborz  }\cell
+\cellx2700
+\fs20\pard\intbl\ql {    1.374}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.532}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    2.580}\cell
+\cellx6300
+\fs20\pard\intbl\ql {    0.010}\cell
+\cellx7500
+\fs20\pard\intbl\ql {    0.331}\cell
+\cellx8700
+\fs20\pard\intbl\ql {    2.417}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx8700\cell
+\row}
+\fs20 {Note: dy/dx for factor levels is the discrete change from the base level.}\line
+
+
+\writepositionforappend
+}}

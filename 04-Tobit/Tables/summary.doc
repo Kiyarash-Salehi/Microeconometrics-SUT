@@ -1,0 +1,88 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\b\qc\line Descriptive statistics }{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx1500
+\fs20\pard\intbl\ql {Variable }\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2700
+\fs20\pard\intbl\ql {Obs}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx3900
+\fs20\pard\intbl\ql {Mean}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx5100
+\fs20\pard\intbl\ql {Std.Dev.}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6300
+\fs20\pard\intbl\ql {Min}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx7500
+\fs20\pard\intbl\ql {Max}\cell
+\row}
+{\par}
+{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {at least a Household member above 65 }\cell
+\cellx2700
+\fs20\pard\intbl\ql {37015}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.265}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    0.441}\cell
+\cellx6300
+\fs20\pard\intbl\ql {0}\cell
+\cellx7500
+\fs20\pard\intbl\ql {1}\cell
+\row}
+{\par}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Cigar }\cell
+\cellx2700
+\fs20\pard\intbl\ql {37015}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    0.161}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    0.368}\cell
+\cellx6300
+\fs20\pard\intbl\ql {0}\cell
+\cellx7500
+\fs20\pard\intbl\ql {1}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Household Size }\cell
+\cellx2700
+\fs20\pard\intbl\ql {37015}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    3.328}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    1.448}\cell
+\cellx6300
+\fs20\pard\intbl\ql {1}\cell
+\cellx7500
+\fs20\pard\intbl\ql {16}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Household Head Education Level }\cell
+\cellx2700
+\fs20\pard\intbl\ql {37015}\cell
+\cellx3900
+\fs20\pard\intbl\ql {    4.088}\cell
+\cellx5100
+\fs20\pard\intbl\ql {    1.432}\cell
+\cellx6300
+\fs20\pard\intbl\ql {2}\cell
+\cellx7500
+\fs20\pard\intbl\ql {6}\cell
+\row}
+
+
+\writepositionforappend
+}}
