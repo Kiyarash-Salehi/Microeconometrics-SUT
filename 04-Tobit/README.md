@@ -19,7 +19,7 @@ The analysis uses data from approximately 37,000 households, covering both urban
 - Insurance Expenditures
 
 ## How to Use This Repository
-1. **Clone the Repository:** `git clone https://github.com/your-username/healthcare-expenditure-analysis.git`
+1. **Clone the Repository:** `   git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git`
 2. **Data Preprocessing:** Run the data preprocessing scripts (do files) located in the `scripts` directory.
 3. **Model Training:** Use the scripts in the `scripts` directory to train the Tobit regression model on the provided dataset.
 4. **Analysis and Visualization:** The `Table` and `Figure` directory contains Statistical tables and figures  for detailed analysis and visualization of the results.
