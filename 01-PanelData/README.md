@@ -16,7 +16,7 @@ To use this project:
 1. Ensure you have Stata installed.
 2. Clone the repository to your local machine.
    ```
-   git clone https://github.com/yourusername/yourprojectname.git
+   git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git
    ```
 3. Run the do file.
 ## Raw Data
