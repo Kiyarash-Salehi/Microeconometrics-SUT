@@ -35,7 +35,7 @@ To set up this project on your local machine:
    ```
 2. Navigate to the project directory:
    ```
-   cd economic-determinants-billionaires
+   cd 02-Nonlinear
    ```
 3. Run the do file in Stata.
 
