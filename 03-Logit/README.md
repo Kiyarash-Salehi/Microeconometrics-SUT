@@ -25,11 +25,11 @@ To set up this project on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/married-women-labor-participation.git
+   git clone https://github.com/kiyarash-salehi/Microeconometrics-SUT.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd married-women-labor-participation
+   cd 03-Logit
    ```
 3. Run the do file with Stata.
 
